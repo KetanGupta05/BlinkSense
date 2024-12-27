@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlinkSense</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">BlinkSense</div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="card">
+                <h1>BlinkSense Dashboard</h1>
+                <p class="description">
+                    Stay healthy while working on screens. Monitor your blink rate and get reminders to protect your eyes!
+                </p>
+                <!-- Removed the video-container and webcam element -->
+                <div id="blink-count" class="blink-count">Blink Count: 0</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 BlinkSense | Your companion for eye care</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
