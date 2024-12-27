@@ -91,22 +91,6 @@ Setup Instructions
 
 
 
-##Project Structure
-
-
-BlinkSense/
-├── blink/                 # Contains blink detection logic
-│   ├── main.py            # Core blink detection script
-│   └── utils.py           # Utility functions
-├── templates/             # HTML files for the web app
-│   └── index.html         # Main user interface
-├── static/                # Static assets (CSS, JS, Images)
-│   ├── style.css          # Custom CSS styles
-│   └── script.js          # JavaScript for frontend functionality
-├── app.py                 # Main Flask application
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
-
 
 ##Contributions
 
